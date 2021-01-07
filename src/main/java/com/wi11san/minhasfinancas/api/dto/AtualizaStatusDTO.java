@@ -1,18 +1,13 @@
 package com.wi11san.minhasfinancas.api.dto;
 
 import lombok.AllArgsConstructor;
-import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
-@Builder
-@NoArgsConstructor
 @AllArgsConstructor
-public class UsuarioDTO {
+@NoArgsConstructor
+public class AtualizaStatusDTO {
 
-	private String email;
-	private String nome;
-	private String senha;
-	
+	private String status;
 }
